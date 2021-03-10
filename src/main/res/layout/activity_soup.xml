@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/menubg"
+    tools:context=".Soup">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Ciorba"
+        android:textColor="#000000"
+
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:padding="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"
+                android:text="Ciorba de burta(18 lei)"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ciorba_de_burta_increment"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:background="#ffbc7a"
+
+                    android:text="+"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ciorba_de_burta_order"
+                    android:layout_width="34dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:paddingBottom="10dp"
+                    android:text="__"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:id="@+id/ciorba_de_burta_decrement"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:background="#ffbc7a"
+
+                    android:text="-"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"
+                android:text="Ciorba de vacuta(16 lei)"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/ciorba_de_vacuta_increment"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:background="#ffbc7a"
+
+                    android:text="+"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ciorba_de_vacuta_order"
+                    android:layout_width="34dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:paddingBottom="10dp"
+                    android:text="__"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal" />
+
+                <Button
+                    android:id="@+id/ciorba_de_vacuta_decrement"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:background="#ffbc7a"
+
+                    android:text="-"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de perisoare(15 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ciorba_de_perisoare_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ciorba_de_perisoare_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_perisoare_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de pui(15 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ciorba_de_pui_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ciorba_de_pui_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_pui_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="Ciorba de fasoale(17 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ciorba_de_fasole_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ciorba_de_fasole_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_fasole_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de legume(16 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <Button
+                        android:id="@+id/ciorba_de_legume_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ciorba_de_legume_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_legume_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de peste(19 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ciorba_de_peste_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:id="@+id/ciorba_de_peste_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_peste_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:id="@+id/ciorba_tot_id"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignEnd="@+id/scrollView"
+        android:layout_marginEnd="41dp"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_marginRight="41dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignEnd="@+id/scrollView"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:background="#ffbc7a"
+        android:onClick="main_menu"
+        android:text="Inapoi"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffbc7a"
+        android:onClick="terminaComandaCiorbaNxt"
+        android:text="Confirmati"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>
