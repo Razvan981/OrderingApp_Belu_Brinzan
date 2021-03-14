@@ -67,7 +67,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_caesar_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -90,7 +90,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_caesar_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -132,7 +132,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_greceasca_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -155,7 +155,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_greceasca_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -195,7 +195,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_cu_ton_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -218,7 +218,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_cu_ton_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -257,7 +257,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_berlineza_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -280,7 +280,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_berlineza_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -318,7 +318,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_vara_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -341,7 +341,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_vara_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -381,7 +381,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_muraturi_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -404,7 +404,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_muraturi_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -444,7 +444,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_varza_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -468,7 +468,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_varza_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -507,7 +507,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_ardei_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -531,7 +531,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_de_ardei_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -570,7 +570,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_taraneasca_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -593,7 +593,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="salata_taraneasca_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"

@@ -68,7 +68,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="piept_de_pui_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -91,7 +91,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="piept_de_pui_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -133,7 +133,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ceafa_de_porc_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -156,7 +156,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ceafa_de_porc_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -196,7 +196,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cotlet_de_porc_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -219,7 +219,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cotlet_de_porc_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -258,7 +258,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="muschiulet_de_porc_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -281,7 +281,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="muschiulet_de_porc_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -318,7 +318,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cartofi_taranesti_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -341,7 +341,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cartofi_taranesti_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -381,7 +381,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cartofi_prajiti_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -404,7 +404,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="cartofi_prajiti_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -443,7 +443,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="orez_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -467,7 +467,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="orez_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -506,7 +506,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="legume_la_gratar_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -530,7 +530,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="legume_la_gratar_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -570,7 +570,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="spaghete_carbonara_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -593,7 +593,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="spaghete_carbonara_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -631,7 +631,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="spaghete_milaneze_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -654,7 +654,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="spaghete_milaneze_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"

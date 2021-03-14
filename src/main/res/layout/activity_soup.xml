@@ -68,7 +68,7 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:background="#ffbc7a"
-
+                    android:onClick="ciorba_de_burta_inc"
                     android:text="+"
                     android:textColor="@android:color/black"
                     android:textSize="25sp"
@@ -91,7 +91,7 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:background="#ffbc7a"
-
+                    android:onClick="ciorba_de_burta_dec"
                     android:text="-"
                     android:textColor="@android:color/black"
                     android:textSize="25sp"
@@ -133,7 +133,7 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:background="#ffbc7a"
-
+                    android:onClick="ciorba_de_vacuta_inc"
                     android:text="+"
                     android:textColor="@android:color/black"
                     android:textSize="25sp"
@@ -156,7 +156,7 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:background="#ffbc7a"
-
+                    android:onClick="ciorba_de_vacuta_dec"
                     android:text="-"
                     android:textColor="@android:color/black"
                     android:textSize="25sp"
@@ -195,7 +195,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_perisoare_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -218,7 +218,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_perisoare_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -257,7 +257,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_pui_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -280,7 +280,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_pui_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -317,7 +317,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_fasole_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -340,7 +340,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_fasole_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -380,7 +380,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_legume_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -403,7 +403,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_legume_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -443,7 +443,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_peste_inc"
                         android:text="+"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
@@ -467,7 +467,7 @@
                         android:layout_width="40dp"
                         android:layout_height="30dp"
                         android:background="#ffbc7a"
-
+                        android:onClick="ciorba_de_peste_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
                         android:textSize="25sp"
