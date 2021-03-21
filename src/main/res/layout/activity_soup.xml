@@ -38,132 +38,132 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp">
-
-            <TextView
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:padding="10dp"
-                android:text="Ciorba de burta(18 lei)"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="right"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/ciorba_de_burta_increment"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:background="#ffbc7a"
-                    android:onClick="ciorba_de_burta_inc"
-                    android:text="+"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                android:padding="5dp">
 
                 <TextView
-                    android:id="@+id/ciorba_de_burta_order"
-                    android:layout_width="34dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="3dp"
-                    android:paddingBottom="10dp"
-                    android:text="__"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:gravity="center_horizontal" />
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de burta(18 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
 
-                <Button
-                    android:id="@+id/ciorba_de_burta_decrement"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:background="#ffbc7a"
-                    android:onClick="ciorba_de_burta_dec"
-                    android:text="-"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
 
-        </RelativeLayout>
+                    <Button
+                        android:id="@+id/ciorba_de_burta_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="ciorba_de_burta_inc"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
-        <RelativeLayout
+                    <TextView
+                        android:id="@+id/ciorba_de_burta_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp">
+                    <Button
+                        android:id="@+id/ciorba_de_burta_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="ciorba_de_burta_dec"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
-            <TextView
+            </RelativeLayout>
+
+            <RelativeLayout
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:padding="10dp"
-                android:text="Ciorba de vacuta(16 lei)"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                />
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_gravity="right"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:orientation="horizontal">
-
-
-                <Button
-                    android:id="@+id/ciorba_de_vacuta_increment"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:background="#ffbc7a"
-                    android:onClick="ciorba_de_vacuta_inc"
-                    android:text="+"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                android:padding="5dp">
 
                 <TextView
-                    android:id="@+id/ciorba_de_vacuta_order"
-                    android:layout_width="34dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="3dp"
-                    android:paddingBottom="10dp"
-                    android:text="__"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:gravity="center_horizontal" />
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="Ciorba de vacuta(16 lei)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
 
-                <Button
-                    android:id="@+id/ciorba_de_vacuta_decrement"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:background="#ffbc7a"
-                    android:onClick="ciorba_de_vacuta_dec"
-                    android:text="-"
-                    android:textColor="@android:color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
 
-            </LinearLayout>
-        </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/ciorba_de_vacuta_increment"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="ciorba_de_vacuta_inc"
+                        android:text="+"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ciorba_de_vacuta_order"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/ciorba_de_vacuta_decrement"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="ciorba_de_vacuta_dec"
+                        android:text="-"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="wrap_content"

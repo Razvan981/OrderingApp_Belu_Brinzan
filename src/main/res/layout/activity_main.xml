@@ -17,23 +17,31 @@
         android:layout_height="35dp"
         android:layout_above="@+id/button1"
         android:layout_alignStart="@+id/button1"
-        android:layout_marginBottom="-275dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginBottom="-360dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="number"
-        android:textColor="#000000"
-        android:layout_alignLeft="@+id/button1">
+        android:textColor="#000000">
 
         <requestFocus />
 
     </EditText>
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="290dp"
         android:text="Te rugam sa introduci numarul mesei."
         android:textColor="#000000"
         android:textSize="18sp"></TextView>
@@ -44,9 +52,9 @@
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="370dp"
         android:background="#ffbc7a"
-        android:onClick="nextact"
+        android:onClick="nextactrest"
         android:text="Continuati"
         android:textColor="#000000" />
 
@@ -56,13 +64,22 @@
         android:layout_height="40dp"
         android:layout_alignStart="@+id/button1"
         android:layout_alignLeft="@+id/button1"
+        android:layout_alignEnd="@+id/button1"
+        android:layout_alignRight="@+id/button1"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="150dp"
         android:background="#ffbc7a"
         android:onClick="nextact"
         android:text="Comanda Acasa"
         android:textColor="#000000" />
 
 </RelativeLayout>
+
+
+
+
+

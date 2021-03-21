@@ -2,6 +2,8 @@ package com.example.orderingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +27,8 @@ public class Salads extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_salads);
+        orders_list_init();
+        total_cal();
     }
 
     public void main_menu(View view) {
@@ -33,8 +37,28 @@ public class Salads extends AppCompatActivity {
     }
 
     public void terminaComandaSalataNxt(View view) {
-        Intent nextAct = new Intent(this, FinishOrder.class);
-        startActivity(nextAct);
+        if(FinishOrder.all_total > 0){
+            Intent nextAct = new Intent(this, FinishOrder.class);
+
+            if(MainActivity.address == null && MainActivity.isWaiting == true) {
+                AlertDialog.Builder builder3 = new AlertDialog.Builder(this);
+                builder3.setMessage("Se cauta adresa...")
+                        .setCancelable(false)
+                        .setNegativeButton("Ok", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+                AlertDialog alert = builder3.create();
+                alert.show();
+            }
+            else {
+                startActivity(nextAct);
+            }
+
+        }else{
+            Toast.makeText(getApplicationContext(), "Va rugam sa adaugati cel putin o comanda!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public int inc(int x) {
@@ -55,6 +79,7 @@ public class Salads extends AppCompatActivity {
         salata_caesar = inc(salata_caesar);
         TextView tv = (TextView) findViewById(R.id.salata_caesar_order);
         tv.setText(""+ salata_caesar);
+        total_cal();
     }
 
     public void salata_caesar_dec(View view){
@@ -66,6 +91,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+           total_cal();
         }
     }
 
@@ -73,6 +99,7 @@ public class Salads extends AppCompatActivity {
         salata_greceasca = inc(salata_greceasca);
         TextView tv = (TextView) findViewById(R.id.salata_greceasca_order);
         tv.setText(""+ salata_greceasca);
+          total_cal();
     }
 
     public void salata_greceasca_dec(View view){
@@ -84,6 +111,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -91,6 +119,7 @@ public class Salads extends AppCompatActivity {
         salata_cu_ton = inc(salata_cu_ton);
         TextView tv = (TextView) findViewById(R.id.salata_cu_ton_order);
         tv.setText(""+ salata_cu_ton);
+          total_cal();
     }
 
     public void salata_cu_ton_dec(View view){
@@ -102,6 +131,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -109,6 +139,7 @@ public class Salads extends AppCompatActivity {
         salata_berlineza = inc(salata_berlineza);
         TextView tv = (TextView) findViewById(R.id.salata_berlineza_order);
         tv.setText(""+ salata_berlineza);
+          total_cal();
     }
 
     public void salata_berlineza_dec(View view){
@@ -120,6 +151,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -127,6 +159,7 @@ public class Salads extends AppCompatActivity {
         salata_de_vara = inc(salata_de_vara);
         TextView tv = (TextView) findViewById(R.id.salata_de_vara_order);
         tv.setText(""+ salata_de_vara);
+          total_cal();
     }
 
     public void salata_de_vara_dec(View view){
@@ -138,6 +171,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -145,6 +179,7 @@ public class Salads extends AppCompatActivity {
         salata_de_muraturi = inc(salata_de_muraturi);
         TextView tv = (TextView) findViewById(R.id.salata_de_muraturi_order);
         tv.setText(""+ salata_de_muraturi);
+          total_cal();
     }
 
     public void salata_de_muraturi_dec(View view){
@@ -156,6 +191,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -163,6 +199,7 @@ public class Salads extends AppCompatActivity {
         salata_de_varza = inc(salata_de_varza);
         TextView tv = (TextView) findViewById(R.id.salata_de_varza_order);
         tv.setText(""+ salata_de_varza);
+          total_cal();
     }
 
     public void salata_de_varza_dec(View view){
@@ -174,6 +211,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+              total_cal();
         }
     }
 
@@ -181,6 +219,7 @@ public class Salads extends AppCompatActivity {
         salata_de_ardei = inc(salata_de_ardei);
         TextView tv = (TextView) findViewById(R.id.salata_de_ardei_order);
         tv.setText(""+ salata_de_ardei);
+         total_cal();
     }
 
     public void salata_de_ardei_dec(View view){
@@ -192,6 +231,7 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
 
@@ -199,6 +239,7 @@ public class Salads extends AppCompatActivity {
         salata_taraneasca = inc(salata_taraneasca);
         TextView tv = (TextView) findViewById(R.id.salata_taraneasca_order);
         tv.setText(""+ salata_taraneasca);
+          total_cal();
     }
 
     public void salata_taraneasca_dec(View view){
@@ -210,6 +251,70 @@ public class Salads extends AppCompatActivity {
             }else{
                 tv.setText("__");
             }
+               total_cal();
         }
     }
+
+    public void orders_list_init(){
+        if( salata_caesar > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_caesar_order);
+            tv.setText("" + salata_caesar);
+        }
+
+        if( salata_greceasca > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_greceasca_order);
+            tv.setText("" + salata_greceasca);
+        }
+
+        if( salata_cu_ton > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_cu_ton_order);
+            tv.setText("" + salata_cu_ton);
+        }
+
+        if( salata_berlineza > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_berlineza_order);
+            tv.setText("" + salata_berlineza);
+        }
+
+        if( salata_de_vara > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_de_vara_order);
+            tv.setText("" + salata_de_vara);
+        }
+
+        if( salata_de_muraturi > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_de_muraturi_order);
+            tv.setText("" + salata_de_muraturi);
+        }
+
+        if( salata_de_varza > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_de_varza_order);
+            tv.setText("" + salata_de_varza);
+        }
+
+        if( salata_de_ardei > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_de_ardei_order);
+            tv.setText("" + salata_de_ardei);
+        }
+
+        if( salata_taraneasca > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_taraneasca_order);
+            tv.setText("" + salata_taraneasca);
+        }
+    }
+
+    public void total_cal(){
+        salata_total = salata_caesar * (18) + salata_greceasca * (16) + salata_cu_ton * (14) + salata_berlineza * (15) + salata_de_vara * (8) + salata_de_muraturi * (8) + salata_de_varza * (7) + salata_de_ardei * (10) + salata_taraneasca * (12);
+        FinishOrder.all_total = Soup.ciorba_total + MainCourse.fel_principal_total + Salads.salata_total + Dessert.desert_total;
+
+        if(FinishOrder.all_total > 0){
+            TextView tv = (TextView) findViewById(R.id.salata_total_id);
+            tv.setText(FinishOrder.all_total + " lei");
+        }else{
+            TextView tv = (TextView) findViewById(R.id.salata_total_id);
+            tv.setText("");
+        }
+
+        orders_list_init();
+    }
+
 }

@@ -17,7 +17,7 @@
         android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/menu" />
 
 
@@ -30,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/soup_l"
         android:onClick="ciorbaNxt" />
 
@@ -105,9 +105,13 @@
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="138dp"
         android:layout_marginLeft="138dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
         android:layout_marginBottom="101dp"
         android:background="#ffbc7a"
         android:onClick="terminaComandaNxt"
